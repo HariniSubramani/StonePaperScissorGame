@@ -1,0 +1,51 @@
+.heading{
+    margin:20% 0 0 auto;
+}
+.flex{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left:40% ;
+}
+.btn{
+    padding: 12px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+.btn:hover{
+    border:1px solid black;
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:420px){
+    .heading{
+        margin:40% 0 0 auto;
+    }
+    .flex{
+        margin-top: 20px;
+        margin-left:20% ;
+    }
+    .btn{
+        padding: 12px;
+        border: 1px solid black;
+        color: black;
+        font-weight: bold;
+        border-radius: 30px;
+        background-color: transparent;
+        cursor: pointer;
+        transition: 0.5s; 
+    }
+    .btn:hover{
+        border:1px solid black;
+        background: #000;
+        color: white;
+        cursor: pointer;
+    }  
+}
